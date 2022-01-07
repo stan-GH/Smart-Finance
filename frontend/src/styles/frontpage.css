@@ -1,0 +1,70 @@
+#front-page {
+    position: relative;
+    height: 800px;
+}
+
+#front-pg #headline-container {
+    position: absolute;
+    top: 30%;
+    left: 26%;
+    text-align: center;
+}
+
+#front-pg #headline {
+    font-size: 60px;
+    color: green;
+}
+
+#front-pg #arrow-container {
+    position: absolute;
+    bottom: 0%;
+    left: 50%;
+}
+
+#front-pg .secondary-page {
+    position: relative;
+    border: 10px solid black;
+    height: 1000px;
+}
+
+#front-pg .secondary-page h2 {
+    text-align: center;
+    font-size: 50px;
+    color: green;
+}
+
+#front-pg .descr-img {
+    float: left;
+}
+
+#front-pg #cake {
+    background-image: url(../images/cakeEdited.jpg); /* Source: https://www.freepik.com/free-vector/piece-cake_3123123.htm#page=1&query=easy%20symbol&position=24 */
+    width: 483px;
+    height: 483px;
+    float: left;
+}
+
+#front-pg #save-money {
+    background-image: url(../images/save_money.jpg); /* Source: https://www.freepik.com/free-vector/happy-rich-banker-celebrating-income-growth_8609326.htm#page=1&query=save%20money&position=1 */
+    width: 729px;
+    height: 486px;
+    float: left;
+}
+
+#front-pg #reward-pic {
+    background-image: url(../images/rewards.jpg); /* Source: https://www.freepik.com/free-vector/couple-winning-prize-man-woman-holding-gift-box-flat-vector-illustration-lottery-present-birthday-party_10172549.htm#page=1&query=rewards&position=0 */
+    width: 729px;
+    height: 567px;
+    float: left;
+}
+
+#front-pg h3.showcase-title {
+    text-align: center;
+    font-size: 40px;
+    color: olivedrab;
+    text-decoration: underline;
+}
+
+#front-pg p.showcase-descr {
+    text-align: center;
+}

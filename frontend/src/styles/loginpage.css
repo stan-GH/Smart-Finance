@@ -1,0 +1,64 @@
+/* * {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #242582;
+} */
+
+#login-pg h1 {
+    font-size: 60px;
+    text-align: center;
+    color: green;
+    text-decoration: underline;
+}
+
+#login-pg #parent-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#login-pg form label {
+    font-size: 40px;
+}
+
+#login-pg form input {
+    width: 499px;
+    height: 53px;
+}
+
+#login-pg form #submit-btn {
+    width: 130px;
+    height: 30px;
+    margin-top: 5%;
+    font-size: 20px;
+    background-color: green;
+}
+
+#login-pg .user-input {
+    font-size: 30px;
+}
+
+#login-pg #confirm-input-lbl, #login-pg #validate-input-lbl {
+    font-size: 15px;
+}
+
+#login-pg div#register-container {
+    margin-left: 5%;
+}
+
+#login-pg #confirm-input-container {
+    margin-top: 5%;
+}
+
+#login-pg #confirm-box, #login-pg #validate-box {
+    width: 20px;
+    height: 20px;
+}
+
+#login-pg .warning-off {
+    display: none;
+}
+
+#login-pg .warning-on {
+    display:inline-block;
+    color: red;
+}

@@ -1,0 +1,52 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #DFDCE3;
+}
+
+#header-pg main {
+    height: 100%;
+}
+
+#header-pg header {
+    border: 5px solid black;
+    display: flex;
+}
+
+#header-pg #logo-section {
+    display: flex;
+}
+
+#header-pg #brand {
+    margin-left: 5px;
+}
+
+#header-pg nav {
+    position: absolute;
+    right: 2%;
+}
+
+#header-pg nav button {
+    margin: 20px;
+    text-decoration: none;
+    font-size: 20px;
+    color:blue;
+}
+
+#header-pg .square {
+    width: 130px;
+    height: 120px;
+    background-image: url("../images/piggy_bank.jpg"); /* Source of image: https://www.flickr.com/photos/68751915@N05/6736158045 */
+}
+
+#header-pg a {
+    color: black;
+}
+
+#user-link-hidden {
+    display: none;
+}
+
+/* #header-pg #logo {
+    width: 80px;
+    height: 80px;
+} */

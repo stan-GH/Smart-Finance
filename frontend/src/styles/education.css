@@ -1,0 +1,25 @@
+#education-pg h1{
+    color:coral;
+    font-size: 60px;
+    text-align: center;
+}
+
+#education-pg > h2 {
+    text-align: center;
+}
+
+#education-pg .container h2 {
+    color:cornflowerblue;
+    text-decoration: underline;
+}
+
+#education-pg .tweetList {
+    list-style: none;
+    margin-right: 10px;
+}
+
+#education-pg ul {
+    display: flex;
+    /* justify-content: center; */
+    overflow: auto;
+}

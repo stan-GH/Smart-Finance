@@ -1,0 +1,129 @@
+/* * {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #242582;
+} */
+
+#profile-pg header {
+    border: 5px solid black;
+    display: flex;
+}
+
+#profile-pg #logo-section {
+    display: flex;
+}
+
+#profile-pg #brand {
+    margin-left: 5px;
+}
+#profile-pg nav {
+    position: absolute;
+    right: 2%;
+}
+
+#profile-pg nav a {
+    margin: 20px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+#profile-pg .warning-off {
+    display: none;
+}
+
+#profile-pg .warning-on {
+    display:inline-block;
+    color: red;
+}
+
+#profile-pg #expenses-title {
+    text-align: center;
+    font-size: 40px;
+}
+
+#profile-pg #expenses-container-1 {
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+
+#profile-pg form {
+    margin-top: 2%;
+    display: flex;
+    justify-content: center;
+}
+
+#profile-pg .items {
+    flex: 50%;
+    padding: 10px;
+    height: 200px;
+    width: 150px;
+    border: 5px solid bisque;
+    margin: 1px;
+    overflow-y: scroll;
+}
+
+#profile-pg #user-title {
+    display: inline-block;
+    font-size: 70px;
+    margin-right: 20px;
+}
+
+#profile-pg #user-balance {
+    display: inline-block;
+    font-size: 40px;
+}
+
+#profile-pg #title-container {
+    text-align: center;
+}
+
+#profile-pg #items li {
+    list-style-type: none;
+}
+
+#profile-pg .profile-invisible {
+    display: none;
+}
+
+#profile-pg .profile-visible {
+    font-size: 20px;
+}
+
+#profile-pg #warning-container {
+    display: flex;
+    justify-content: center;
+}
+
+#profile-pg .square {
+    width: 92px;
+    height: 92px;
+    background-color: black;
+}
+
+#profile-pg a {
+    color: black;
+}
+
+#profile-pg .input-fd {
+    width: 200px;
+    height: 30px;
+    font-size: 30px;
+}
+
+#profile-pg .items {
+    font-size: 30px;
+}
+
+#profile-pg #add-item-btn {
+    background-color: green;
+    font-size: 20px;
+}
+
+#profile-pg #remove-item-btn {
+    font-size: 20px;
+    background-color: red;
+}
+
+#profile-pg #expense-history-container {
+    width: 300px;
+}

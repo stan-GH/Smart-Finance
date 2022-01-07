@@ -1,0 +1,83 @@
+/* * {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #242582;
+} */
+
+#register-pg header {
+    border: 5px solid black;
+    display: flex;
+}
+
+#register-pg #logo-section {
+    display: flex;
+}
+
+#register-pg #brand {
+    margin-left: 5px;
+}
+
+#register-pg h1 {
+    text-align: center;
+    font-size: 60px;
+    text-decoration: underline;
+    color: blue;
+}
+
+#register-pg #parent-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#register-pg form label {
+    font-size: 40px;
+}
+
+#register-pg form input {
+    width: 499px;
+    height: 53px;
+}
+
+#register-pg form #submit-btn {
+    width: 130px;
+    height: 30px;
+    margin-top: 5%;
+    font-size: 20px;
+    background-color: green;
+}
+
+#register-pg .user-input {
+    font-size: 30px;
+}
+
+#register-pg #confirm-input-lbl {
+    font-size: 15px;
+}
+
+#register-pg #confirm-input-container {
+    margin-top: 5%;
+}
+
+#register-pg #confirm-box {
+    width: 20px;
+    height: 20px;
+}
+
+#register-pg .warning-off {
+    display: none;
+}
+
+#register-pg .warning-on {
+    display:inline-block;
+    color: red;
+}
+
+#register-pg .square {
+    width: 92px;
+    height: 92px;
+    background-color: black;
+}
+
+#register-pg a {
+    color: black;
+}
